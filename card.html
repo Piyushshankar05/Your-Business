@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<div class="container">
+<div class="card">
+<div class="inner-box" id="card">
+<div class="card-front">
+    <h2>LOGIN</h2>
+    <form action="your.php" method="post">
+
+        <input type="input-field" class="input-box" placeholder="Your business name" name="Your business name" required>
+        <input type="name" class="input-box" placeholder="Your business location" name="Your business location" required>
+         <input type="name" class="input-box" placeholder="Your business address" name="Your business address" required>
+        <input type="name" class="input-box" placeholder="Your business contact" name="Your business contact" required>
+        <input type="name" class="input-box" placeholder="Your business email" name="Your business email" required>
+        
+          
+         
+ <input type="file" name="fileToUpload" id="fileToUpload">
+			<input type="submit" value="Submit">
+
+
+        <button type="submit" class="submit-btn">Submit</button>
+        <input type="checkbox"><span>Remember Me</span>
+    
+</div>
+
+
+<script>
+
+    var card = document.getElementById("card");
+
+    function openRegister()
+    {
+        card.style.transform = "rotateY(-180deg)";
+    }
+    function openLogin()
+    {
+        card.style.transform = "rotateY(0deg)";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+
